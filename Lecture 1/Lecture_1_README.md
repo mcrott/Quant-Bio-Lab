@@ -20,21 +20,23 @@ Poisson distribution is pretty much the same as 1.4. Its shifted to the right in
 ## 1.6
 0.0006000000000000001 % of the genome has been sequenced with 0 reads. 
 
+## 2.1
+Duplicate edges are present, total was 14 uniques
+
 ## 2.4
 See python script
 
 ## 2.5
-TTG
+ATT
  ||
- TGT
+ TTC
   ||
-  GTA
+  TCT
    ||
-   TAT
+   CTT
     ||
-    ATG
-
-TTGTATG
+    TTA
+attctta
 
 ## 2.6
 Rough question. First you would need sufficient coverage of the genome, ie 30-40x. Secondly, you would need a fantastic algorithm to search for kmers. We only used k=3, but id suspect you would want upwards to k=500 to 1000 for accurate coverage. 
