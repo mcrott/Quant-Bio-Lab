@@ -1,7 +1,7 @@
 library(tidyverse)
-  samp_starts <- readr::read_tsv("C:/Users/test/School/Quant Bio/Quant-Bio-Lab/sample_coverage.tsv")
-  samp_starts10x <- readr::read_tsv("C:/Users/test/School/Quant Bio/Quant-Bio-Lab/sample_cov_10x.tsv")
-  samp_starts30x <- readr::read_tsv("C:/Users/test/School/Quant Bio/Quant-Bio-Lab/sample_cov_30x.tsv")
+  samp_starts <- readr::read_tsv("Quant Bio Lab/sample_coverage.tsv")
+    samp_starts10x <- readr::read_tsv("Quant Bio Lab/sample_cov_10x.tsv")
+  samp_starts30x <- readr::read_tsv("Quant Bio Lab/sample_cov_30x.tsv")
 
 
 

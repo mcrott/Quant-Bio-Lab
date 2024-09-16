@@ -29,7 +29,7 @@ chrom1 = np.histogram(chrom,bins=max(chrom)+1)
 
 #pmf and pdf
 pmf = stats.poisson.pmf(poisson,mu=3)
-pdf = stats.norm.pdf(poisson,loc=np.mean(poisson), scale=np.sqrt(np.mean(poisson)))
+pdf = stats.norm.pdf(poisson,loc=np.mean(3), scale=np.sqrt(np.mean(3)))
 
 #scaling
 pmf = pmf*genome_size
@@ -64,7 +64,7 @@ max_cov2 = max(chrom1_5)
 poislist = list(range(max_cov2 +1))
 
 pmf1_5 = stats.poisson.pmf(poislist,mu=10)*genome_size
-pdf1_5 = stats.norm.pdf(poislist,loc=np.mean(poislist),scale=np.sqrt(np.mean(poislist)))*genome_size
+pdf1_5 = stats.norm.pdf(poislist,loc=10,scale=np.sqrt(10))*genome_size
 chrom2 = np.histogram(chrom1_5,bins=max(chrom1_5)+1)
 
 df1 = pd.DataFrame(data={
@@ -93,7 +93,7 @@ max_cov3 = max(chrom30)
 poislist2 = list(range(max_cov3 +1))
 
 pmf30 = stats.poisson.pmf(poislist2,mu=30)*genome_size
-pdf30 = stats.norm.pdf(poislist2,loc=np.mean(poislist2),scale=np.sqrt(np.mean(poislist2)))*genome_size
+pdf30 = stats.norm.pdf(poislist2,loc=30,scale=np.sqrt(30))*genome_size
 chrom3 = np.histogram(chrom30,bins=max(chrom30)+1)
 
 

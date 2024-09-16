@@ -10,15 +10,16 @@ How many 100bp reads are needed to sequence a 1Mbp genome to 3x coverage?
 
 5.1% of the genome has not been sequenced
 
-The poisson distribution  is shifted to the right in comparison to the genome coverage data from 30000 reads. 
+The poisson distribution is overlaid with the coverage distribution/histogram. 
 
 ## 1.5
 
 0.0031000000000000003 % of the genome has been sequenced with 0 reads. 
-Poisson distribution is pretty much the same as 1.4. Its shifted to the right in comparison to the coverage data from 100000 reads. 
+Same with 1.4. The poisson distribution is on top of the coverage distribution. 
 
 ## 1.6
 0.0006000000000000001 % of the genome has been sequenced with 0 reads. 
+Both the poisson and normal distribution fit the data extremely well. Most likely due to greater coverage of the genome with the 30x read. 
 
 ## 2.1
 Duplicate edges are present, total was 14 uniques

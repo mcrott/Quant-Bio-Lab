@@ -14,7 +14,6 @@ for i in reads:
             edges.write(f"{e1} -> {e2}\n")
 edges.close()
     
-
 #2.2
 """
 Done with with a python script with a conda environment, no command lines were used. See below
